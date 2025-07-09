@@ -1,0 +1,63 @@
+body {
+    font-family: 'arial', sans-serif;
+    background-color: #ff00c8; /* Soft yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #eeff00; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #ff0000;
+}
+
+p {
+    color: #ff0000;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #fdd835; 
+    border-radius: 5px;
+    background-color: #fff9c4;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #803e00; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7b00; 
+}
+
+#message {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000; 
+}
+
+#tries {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d17f5;
+}
