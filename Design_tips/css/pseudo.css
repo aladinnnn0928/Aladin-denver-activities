@@ -1,0 +1,16 @@
+a:link{
+    background-color: rgb(255, 3, 213);
+    color: aliceblue;
+}
+
+a:hover{
+    background-color: blue;
+    color:white;
+
+}
+a:active{
+    background-color: red;
+    color:yellow ;
+    height: 500px ;
+    font-size: 100px;
+}

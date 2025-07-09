@@ -1,0 +1,15 @@
+.box1{
+    margin: 20px;
+    padding: 10px;
+    border: 5px soloid blue;
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    margin: 20px;
+    padding: 50px;
+    border: 5px soloid yellow;
+    width: 100px;
+    height: 100px;
+} 
